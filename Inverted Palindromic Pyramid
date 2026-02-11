@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class lab_05_6{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter the size of the pattern:");
+        int size=sc.nextInt(); 
+        int n=size; 
+        for(int i=n;i>=1;i--){
+            for(int j=n-i;j>=1;j--){
+                System.out.print(" ");
+            }
+            for(int a =1;a<=i;a++){
+                System.out.print(a);
+            }
+            for(int b=i-1;b>=1;b--){
+                System.out.print(b);
+            }
+            for(int k=n-i;k>=1;k--){
+                System.out.print(" ");
+            }
+            System.out.println();
+        }
+    }
+}
