@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class chatgpt_pattern_prob_1{
+public class palindromic_diamond{
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter the size of the pattern:");
@@ -39,4 +39,5 @@ public class chatgpt_pattern_prob_1{
               System.out.print(" ");
         }
     }
+
 }          
